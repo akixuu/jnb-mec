@@ -1,0 +1,29 @@
+# bundle exec jekyll serve
+
+title: Manufacturing & Engineering Co-op
+email: manufacturingengineeringcoop@gmail.com 
+phone: 123-123-1234
+description: >-
+  asdf
+
+# temp using my acc
+baseurl: "/mec"
+url: "https://akixuu.github.io"
+socials:
+  linkedin: https://www.linkedin.com/company/jnb-mec/
+  instagram: _mec24
+
+plugins:
+  - jekyll-feed
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
