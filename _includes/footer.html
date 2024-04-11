@@ -1,0 +1,29 @@
+<footer class="footer pt-5 pb-3 border-top">
+    <div class="container">
+        <div class="row g-2">
+            <div class="col col-5">
+                <img class="col-3" src="assets/media/logo.png" alt="MEC Logo"/>
+                <h3 class="text-primary fw-bolder">Manufacturing and Engineering Co-op</h3>
+                <ul class="list-unstyled">
+                    <li><i class="fa-solid fa-envelope"></i> {{site.email}}</li>
+                    <li><i class="fa-solid fa-globe"></i> {{site.location}}</li>
+                </ul>
+                <div class="d-flex gap-2 fs-3">
+                    <a href="{{site.social_links.instagram}}"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="{{site.social_links.linkedin}}"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="col">
+                <p>Sitemap</p>
+                <p>Description</p>
+            </div>
+            <div class="col">
+                <p>Land Acknowledgement</p>
+            </div>
+        </div>
+        <hr>
+        <div class="col col-12 text-center text-small">
+            <p class="text-center text-muted">&copy; {{ site.title }} {{ site.time | date: '%Y' }}  |  All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>

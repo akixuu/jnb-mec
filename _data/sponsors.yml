@@ -1,0 +1,38 @@
+# In future versions, you can separate them by year.
+# For image_url, you can include a http link or just the pathfile
+
+- tier_name: Gold
+  sponsors:
+    - name: School of Woke
+      link: 
+      img: assets/media/placeholder-sponsor-logo.png
+    - name: Jingle Spa Society 
+      link: 
+      img: https://s3-alpha.figma.com/hub/file/1913095808/a7bdc469-cd70-4ea1-bb57-b59204ad8182-cover.png
+    - name: Single Guitar Shelf
+      link: 
+      img: https://mir-s3-cdn-cf.behance.net/project_modules/hd/e4c02d32431337.5605bf79cdb42.jpg
+
+- tier_name: Silver
+  sponsors:
+    - name: Bank of Pickleverse
+      link: 
+      img: https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/apple-logo.png
+    - name: Diep.io
+      link: 
+      img: https://www.jetpunk.com/img/user-photo-library/d4/d450bd5b70-450.png
+    - name: Hyper Hippo
+      link: 
+      img: https://i.imgur.com/VUnkfgdl.png
+
+- tier_name: Bronze
+  sponsors:
+    - name: John's Pizza
+      link: 
+      img: https://www.designevo.com/res/templates/thumb_small/blue-branch-football-badge.webp
+    - name: Papaya Legacy
+      link: 
+      img: https://png.pngtree.com/png-vector/20220618/ourmid/pngtree-dice-logo-vector-cube-logos-png-image_5214469.png
+    - name: Tin Can House
+      link: 
+      img: https://images.squarespace-cdn.com/content/v1/55bba93ae4b0e81a202a8ce8/1461381085657-7QPRXQ3XU8AI2HR0BHMR/image-asset.jpeg
