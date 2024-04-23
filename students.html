@@ -1,24 +1,27 @@
 ---
 title: Students
 ---
-
-<section>
-    <div class="container my-4">  
-        <h2 class="display-6 text-primary">Students from 2024</h2>
-        <div class="rounded">
-            <div class=" row row-cols-md-3 row-cols-lg-5 row-cols-2 g-2 g-md-3 my-2">
-                {% for student in site.data.students %}
-                <div class="col">
-                    <div class="text-center">
-                        <div class="ratio ratio-1x1">
-                            <img src="assets/media/student-headshots/default.jpg" alt="{{student.name}} headshot" class="rounded-circle card-img-top h-100 w-100 overflow-hidden"> 
-                        </div>
-                        <h5 class="card-title mt-2 mb-0">{{student.name}}</h5>
-                        <p class="card-text mt-0">{{student.position}}</p>
-                    </div>
+<!-- MEC 1 Student Gallery -->
+<section class="container my-5">
+    <h2 class="fw-bold text-primary">Students from 2024</h2>
+    <div class=" row row-cols-md-3 row-cols-lg-5 row-cols-2 g-2 g-md-3 my-2">
+        {% for student in site.data.students %}
+        <!-- {{student.name}} -->
+        <div class="col">
+            <div class="text-center">
+                <div class="ratio ratio-1x1">
+                    {% if student.picture %}
+                    <img src="assets/media/student-headshots/{{student.picture}}" alt="{{student.name}} headshot"
+                        class="rounded-circle card-img-top h-100 w-100 overflow-hidden">
+                    {% else %}
+                    <img src="assets/media/student-headshots/default.jpg" alt="no headshot for {{student.name}}"
+                        class="rounded-circle card-img-top h-100 w-100 overflow-hidden">
+                    {% endif %}
                 </div>
-                {% endfor %}
+                <p class="card-title fw-bolder text-primary mt-2 mb-0">{{student.name}}</p>
+                <p class="card-text mt-0">{{student.role}}</p>
             </div>
         </div>
+        {% endfor %}
     </div>
 </section>

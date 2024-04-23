@@ -1,44 +1,56 @@
 # pictures are stored in ./team_members_pics/first_last.png 
 
 # MODEL
-# - name: First Last **
-#   picture: e.g. imagename.ext - Image name under ./team_members_pics/ **
+# - name: First Last
+#   picture: Put images under ./team_members_pics/
 #   role: Some Position
 #   one_liner: Lorem ipsum. Max 64 characters.
 #   linkedin: johndoe
 
-- name: John Doe
-  picture: Lorem.
+- name: Adam Yetbarek
+  picture: adam.jpeg
+  role: Build, Pit Crew
+  one_liner: Loves cats and movies. Will probably beat you in any game.
+  linkedin: https://www.linkedin.com/in/adam-yetbarek-5ba147246
+
+- name: Adison Seo
+  picture: adison.jpeg
+  role: Marketing
+  one_liner: I am a very excited to be apart of this team and to meet new people.
+  linkedin: https://www.linkedin.com/in/adison-seo-bb3a5a2b3
+
+- name: Lucia De Gros
+  picture: lucia.jpeg
+  role: Design Lead, Build, Pit Crew
+  one_liner: My name is Lucia and I am hoping to go into the mechanical field working with cars and/or boats.
+  linkedin: https://www.linkedin.com/in/lucia-de-gros-7a24b12b3?utm_source=share
+
+- name: Brooke LeBlanc
+  picture: 
   role: Lorem.
   one_liner: Lorem.
   linkedin: johndoe
 
-- name: John Doe
-  picture: Lorem.
+- name: Aki Xu
+  picture: 
   role: Lorem.
   one_liner: Lorem.
   linkedin: johndoe
 
-- name: John Doe
-  picture: Lorem.
-  role: Lorem.
-  one_liner: Lorem.
-  linkedin: johndoe
+- name: Cole Garcia
+  picture: 
+  role: 
+  one_liner: 
+  linkedin: 
+
+- name: Areeba Saqid
+  picture: 
+  role: 
+  one_liner:
+  linkedin: 
 
 - name: John Doe
-  picture: Lorem.
-  role: Lorem.
-  one_liner: Lorem.
-  linkedin: johndoe
-
-- name: John Doe
-  picture: Lorem.
-  role: Lorem.
-  one_liner: Lorem.
-  linkedin: johndoe
-
-- name: John Doe
-  picture: Lorem.
-  role: Lorem.
-  one_liner: Lorem.
-  linkedin: johndoe
+  picture: 
+  role: 
+  one_liner: 
+  linkedin: 
