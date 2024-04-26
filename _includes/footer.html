@@ -1,29 +1,29 @@
-<footer class="footer pt-5 pb-3 border-top">
-    <div class="container">
-        <div class="row g-2">
-            <div class="col col-5">
-                <img class="col-3" src="assets/media/logo.png" alt="MEC Logo"/>
-                <h3 class="text-primary fw-bolder">Manufacturing and Engineering Co-op</h3>
-                <ul class="list-unstyled">
-                    <li><i class="fa-solid fa-envelope"></i> {{site.email}}</li>
-                    <li><i class="fa-solid fa-globe"></i> {{site.location}}</li>
-                </ul>
-                <div class="d-flex gap-2 fs-3">
-                    <a href="{{site.social_links.instagram}}"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                    <a href="{{site.social_links.linkedin}}"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                </div>
+<footer class="footer pt-5 pb-3 border-top container">
+    <div class="row rows-sm-2 g-2">
+        <div class="col">
+            <!-- nah i don't wanna add this -->
+            <!-- <img class="" height="20rem" src="assets/media/logo.png" alt="MEC Logo" /> -->
+            <p class="text-primary fw-bolder h4">Manufacturing and Engineering Co-op</p>
+            <ul class="list-unstyled">
+                <li><i class="fa-solid fa-envelope me-1"></i> {{site.email}}</li>
+                <li><i class="fa-solid fa-phone me-1"></i> {{site.phone}}</li>
+                <li><i class="fa-solid fa-globe me-1"></i> {{site.location}}</li>
+            </ul>
+            <div class="d-flex gap-2 fs-3">
+                <a href="{{site.social_links.instagram}}"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="{{site.social_links.linkedin}}"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
             </div>
-            <div class="col">
-                <p>Sitemap</p>
-                <p>Description</p>
-            </div>
-            <div class="col">
-                <p>Land Acknowledgement</p>
-            </div>
+        </div>
+        <div class="col">
+            <p class="fw-bolder">Land Acknowledgement</p>
+            <p class="text-small text-muted">We respectfully acknowledge that our website operates on the traditional,
+                ancestral, and unceded
+                territories of the Coast Salish Peoples, including the territories of the xʷməθkʷəy̓əm,
+                Sḵwx̱wú7mesh, and səl̓ilwətaɁɬ Nations.</p>
         </div>
         <hr>
         <div class="col col-12 text-center text-small">
-            <p class="text-center text-muted">&copy; {{ site.title }} {{ site.time | date: '%Y' }}  |  All Rights Reserved.</p>
-        </div>
+            <p class="text-center text-muted">&copy; {{ site.title }} {{ site.time | date: '%Y' }} | All Rights
+                Reserved.</p>
     </div>
 </footer>

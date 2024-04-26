@@ -18,39 +18,34 @@ title: Partners
         object-fit: cover;
     }
 </style>
-<section class="container py-5">
-        <h1 class="text-center mb-4">Our Partners & Sponsors</h1>
-        <p class="lead text-center">
-            We thank all our sponsors for their help! This program wouldn't be able to run without their support.
-        </p>
-        <hr class="pb-1">
-        {% for tier in site.data.sponsors %}
-        <div class="row g-2 mt-3">
-            <div class="col-12">
-                <h2 class="">{{tier.tier_name}}</h2>
-            </div>
-            {% for sponsor in tier.sponsors %}
-            <div class="col-3">
-                <div class="square-image">
-                    <img src="{{sponsor.img}}" alt="{{sponsor.name}}">
-                </div>
-            </div>
-            {% endfor %}
-        </div>
+<section class="container my-4">
+    <h1 class="text-center mb-4">Our Partners & Sponsors</h1>
+    <p class="lead text-center">
+        We thank all our sponsors for their help! This program wouldn't be able to run without their support.
+    </p>
+    <hr class="pb-1">
+    <div class="row row-cols-sm-4  justify-content-center">
+        {% for sponsor in site.data.sponsors %}
+        <figure class="col figure">
+            <img src="{{sponsor.img}}" class="figure-img img-fluid" alt="{{sponsor.name}}">
+            <a href="{{sponsor.link}}">
+                <figcaption class="figure-caption text-center">{{sponsor.name}}</figcaption>
+            </a>
+        </figure>
         {% endfor %}
+    </div>
 </section>
-    
+
 <!-- support us? -->
 <section class="container my-3">
     <div class="row">
-      <div class="col col-sm-3">
-        <h4>Sponsor Us?</h4>
-      </div>
-      <div class="col col-sm-9">
-        <p>Help support our program so that more highschool students can explore manufacturing and engineering.</p>
-        <a class="btn btn-primary" href="#">Support Us</a>
-        <a class="btn btn-secondary" href="#">Other Support?</a>
-      </div>
+        <div class="col col-sm-3">
+            <h4>Sponsor Us?</h4>
+        </div>
+        <div class="col col-sm-9">
+            <p>Help support our program so that more highschool students can explore manufacturing and engineering.</p>
+            <a class="btn btn-primary" href="#">Donations</a>
+            <a class="btn btn-secondary" href="mailto:jnb_mec@gmail.com">Other Support</a>
+        </div>
     </div>
-  </section>
-  
+</section>
