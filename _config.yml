@@ -32,6 +32,10 @@ defaults:
 sass:
   style: compressed
 
+include:
+  - _sass/vendor/_rfs.scss
+
+  
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
